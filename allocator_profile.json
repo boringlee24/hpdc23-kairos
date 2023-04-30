@@ -1,0 +1,177 @@
+{
+    "dien": {
+        "g4dn.xlarge": {
+            "qps": 105.56
+        },
+        "c5n.2xlarge": {
+            "qps": 69.52,
+            "small_ratio": 0.873,
+            "vio_batch": 460,
+            "time_ratio": 0.808,
+            "all_batch": {
+                "460": 69.52
+            }
+        },
+        "r5n.large": {
+            "qps": 63.06,
+            "small_ratio": 0.857,
+            "vio_batch": 430,
+            "time_ratio": 0.788,
+            "all_batch": {
+                "430": 63.06,
+                "460": 61.44
+            }
+        },
+        "t3.xlarge": {
+            "qps": 41.45,
+            "small_ratio": 0.741,
+            "vio_batch": 220,
+            "time_ratio": 0.657,
+            "all_batch": {
+                "220": 41.45,
+                "460": 32.76,
+                "430": 33.52
+            }
+        }
+    },
+    "mtwnd": {
+        "g4dn.xlarge": {
+            "qps": 167.36
+        },
+        "c5n.2xlarge": {
+            "qps": 100.18,
+            "small_ratio": 0.934,
+            "vio_batch": 570,
+            "time_ratio": 0.877,
+            "all_batch": {
+                "570": 100.18
+            }
+        },
+        "r5n.large": {
+            "qps": 89.4,
+            "small_ratio": 0.877,
+            "vio_batch": 470,
+            "time_ratio": 0.792,
+            "all_batch": {
+                "470": 89.4,
+                "570": 82.47
+            }
+        },
+        "t3.xlarge": {
+            "qps": 57.27,
+            "small_ratio": 0.745,
+            "vio_batch": 230,
+            "time_ratio": 0.635,
+            "all_batch": {
+                "230": 57.27,
+                "570": 41.94,
+                "470": 45.39
+            }
+        }
+    },
+    "ncf": {
+        "g4dn.xlarge": {
+            "qps": 861.33
+        },
+        "c5n.2xlarge": {
+            "qps": 690.13,
+            "small_ratio": 0.985,
+            "vio_batch": 880,
+            "time_ratio": 0.973,
+            "all_batch": {
+                "880": 690.13
+            }
+        },
+        "r5n.large": {
+            "qps": 499.0,
+            "small_ratio": 0.967,
+            "vio_batch": 740,
+            "time_ratio": 0.942,
+            "all_batch": {
+                "740": 499.0,
+                "880": 486.14
+            }
+        },
+        "t3.xlarge": {
+            "qps": 407.0,
+            "small_ratio": 0.858,
+            "vio_batch": 440,
+            "time_ratio": 0.756,
+            "all_batch": {
+                "440": 407.0,
+                "880": 317.16,
+                "740": 335.46
+            }
+        }
+    },
+    "rm2": {
+        "g4dn.xlarge": {
+            "qps": 15.04
+        },        
+        "c5n.2xlarge": {
+            "qps": 10.73,
+            "small_ratio": 0.989,
+            "vio_batch": 910,
+            "time_ratio": 0.959,
+            "all_batch": {
+                "910": 10.73
+            }
+        },
+        "r5n.large": {
+            "qps": 10.39,
+            "small_ratio": 0.984,
+            "vio_batch": 870,
+            "time_ratio": 0.941,
+            "all_batch": {
+                "870": 10.39,
+                "910": 10.27
+            }
+        },
+        "t3.xlarge": {
+            "qps": 6.39,
+            "small_ratio": 0.837,
+            "vio_batch": 400,
+            "time_ratio": 0.614,
+            "all_batch": {
+                "400": 6.39,
+                "910": 4.74,
+                "870": 4.83
+            }
+        }
+    },
+    "wnd": {
+        "g4dn.xlarge": {
+            "qps": 246.18
+        },        
+        "c5n.2xlarge": {
+            "qps": 126.04,
+            "small_ratio": 0.971,
+            "vio_batch": 770,
+            "time_ratio": 0.94,
+            "all_batch": {
+                "770": 126.04
+            }
+        },
+        "r5n.large": {
+            "qps": 106.1,
+            "small_ratio": 0.951,
+            "vio_batch": 620,
+            "time_ratio": 0.903,
+            "all_batch": {
+                "620": 106.1,
+                "770": 102.08
+            }
+        },
+        "t3.xlarge": {
+            "qps": 67.98,
+            "small_ratio": 0.804,
+            "vio_batch": 340,
+            "time_ratio": 0.7,
+            "all_batch": {
+                "340": 67.98,
+                "770": 52.74,
+                "620": 54.11
+            }
+        }
+    }
+}
