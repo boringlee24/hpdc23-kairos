@@ -21,6 +21,8 @@ Kairos performs optimal query distribution given a fixed heterogeneous configura
 python launch_servers.py
 ```
 
+These servers capture the response time of the ML inference service for requests of different batche sizes. For actual implementation of the ML inference models, please refer to https://github.com/harvard-acc/DeepRecSys
+
 From another node, run 
 ```
 python kairos_query_distributor
